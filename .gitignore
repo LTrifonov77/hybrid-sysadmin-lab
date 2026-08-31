@@ -1,0 +1,48 @@
+# Secrets and credentials
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.pfx
+*.p12
+*.ppk
+secrets/
+credentials/
+.ssh/
+id_rsa
+id_ed25519
+id_ecdsa
+
+# Virtual machines and disk images
+*.vhd
+*.vhdx
+*.avhdx
+*.vmdk
+*.vdi
+*.iso
+*.ova
+*.ovf
+*.vmcx
+*.vmrs
+*.vmgs
+
+# Complete local Hyper-V runtime tree (VMs, ISOs, and backup media)
+/SYSADMIN-LAB/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+~$*
+
+# Operating system and editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Infrastructure state, if added later
+*.tfstate
+*.tfstate.*
+.terraform/
